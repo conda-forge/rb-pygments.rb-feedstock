@@ -1,5 +1,5 @@
 {% set name = "pygments.rb" %}
-{% set version = "3.0.0" %}
+{% set version = "4.0.0" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-    sha256: 41729ecc69624bd3fc6bcc13d6ccb6ff0263334c42f66bfcf517a120addbb093
+    sha256: f48bb03a28cf5eaa56e8d3d5a49b76a978199a51bd8643cc4b32fbb7ffecee57
 
 build:
   noarch: generic
